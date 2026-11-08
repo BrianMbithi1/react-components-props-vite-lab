@@ -1,5 +1,5 @@
 // Article: a single post (props: title, date, preview). Parent: ArticleList
-function Article({ title, date, preview }) {
+function Article({ title, date = "December 15, 2020", preview }) {
   return (
     <article>
       <h3>{title}</h3>
